@@ -1,0 +1,70 @@
+﻿<Page
+    x:Class="vUnivere.vuMyGroupPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:vUnivere"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid x:Name="mainGrid" Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="94*"/>
+        </Grid.RowDefinitions>
+        <StackPanel x:Name="headerPanel" HorizontalAlignment="Left" VerticalAlignment="Top" Orientation="Horizontal" Margin="0">
+            <Image x:Name="image" Height="40" Width="35" Source="Assets/menuIcon.png" Margin="5,0,5,5"/>
+            <TextBlock x:Name="textBlock" TextWrapping="Wrap" Text="мояГруппа" FontSize="24" VerticalAlignment="Center"/>
+        </StackPanel>
+        <StackPanel x:Name="contentPanel" Grid.Row="1" Margin="0,10,0,0">
+            <StackPanel x:Name="newsItem" Margin="0">
+                <StackPanel x:Name="newsAuthor" Orientation="Horizontal" Margin="5,5,5,0">
+                    <TextBlock x:Name="textBlock1" TextWrapping="Wrap" Text="САУ-512" FontSize="24" Margin="5,5,0,0"/>
+                </StackPanel>
+                <StackPanel x:Name="newsContent" Margin="5,0,5,5">
+                    <TextBlock x:Name="textBlock2" TextWrapping="Wrap" Text="Староста: Чкалова Полина Геннадьевна" FontSize="18" Margin="5,5,0,5"/>
+                    <Button x:Name="button" Content="Материалы группы" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,0"/>
+                    <Button x:Name="button_Copy" Content="Написать в группу" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="5,0"/>
+                </StackPanel>
+            </StackPanel>
+            <TextBlock x:Name="textBlock3" TextWrapping="Wrap" Text="Новости" Margin="10,5,2,5" FontSize="22">
+                <TextBlock.Foreground>
+                    <SolidColorBrush Color="{ThemeResource PhoneBaseMediumHighColor}"/>
+                </TextBlock.Foreground>
+            </TextBlock>
+            <StackPanel x:Name="newsItem_Copy" Margin="5">
+                <StackPanel x:Name="newsAuthor1" Orientation="Horizontal" Margin="5,5,5,0">
+                    <Image x:Name="icon1" Source="Assets/profile0001icon.png" Height="40" Width="40" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    <TextBlock x:Name="textBlock4" TextWrapping="Wrap" Text="Домановский Никита" FontSize="24" Margin="5,5,0,0"/>
+                </StackPanel>
+                <StackPanel x:Name="newsContent1" Margin="5,0,5,5">
+                    <TextBlock x:Name="textBlock5" TextWrapping="Wrap" Text="Ребята, не могу сделать 5 задание в типовом расчете. Может кто помочь?" FontSize="18" Margin="0,5"/>
+                    <TextBlock x:Name="textBlock6" TextWrapping="Wrap" Text="26 ноября 2016, 16:44" HorizontalAlignment="Right" Margin="0,0,5,0"/>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel x:Name="newsItem_Copy1" Margin="5">
+                <StackPanel x:Name="newsAuthor2" Orientation="Horizontal" Margin="5,5,5,0">
+                    <Image x:Name="icon2" Source="Assets/profileIcon.png" Height="40" Width="40" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    <TextBlock x:Name="textBlock7" TextWrapping="Wrap" Text="Чкалова Полина" FontSize="24" Margin="5,5,0,0"/>
+                </StackPanel>
+                <StackPanel x:Name="newsContent2" Margin="5,0,5,5">
+                    <TextBlock x:Name="textBlock8" TextWrapping="Wrap" Text="Не забудьте завтра принести свои зачетки!" FontSize="18" Margin="0,5"/>
+                    <TextBlock x:Name="textBlock9" TextWrapping="Wrap" Text="25 ноября 2016, 17:21" HorizontalAlignment="Right" Margin="0,0,5,0"/>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel x:Name="newsItem_Copy2" Margin="5">
+                <StackPanel x:Name="newsAuthor3" Orientation="Horizontal" Margin="5,5,5,0">
+                    <Image x:Name="icon3" Source="Assets/profileIcon.png" Height="40" Width="40" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+                    <TextBlock x:Name="textBlock10" TextWrapping="Wrap" Text="Бусинов Роман" FontSize="24" Margin="5,5,0,0"/>
+                </StackPanel>
+                <StackPanel x:Name="newsContent3" Margin="5,0,5,5">
+                    <TextBlock x:Name="textBlock11" TextWrapping="Wrap" Text="А когда у нас сдача КР по Математике?" FontSize="18" Margin="0,5"/>
+                    <TextBlock x:Name="textBlock12" TextWrapping="Wrap" Text="25 ноября 2016, 16:57" HorizontalAlignment="Right" Margin="0,0,5,0"/>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Page>

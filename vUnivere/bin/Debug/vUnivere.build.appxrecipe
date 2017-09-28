@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-E6MQ2SD</Machine>
+    <WindowsUser>iMashine</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>29d7b562-2955-411d-a2bb-cd3862f747f2</PackageIdentityName>
+    <IntermediateOutputPath>D:\1_MYFOLDER\2_PROJECTS\1_C#\1_WP\vUnivere\vUnivere\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\1_MYFOLDER\2_PROJECTS\1_C#\1_WP\vUnivere\vUnivere\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\1_MYFOLDER\2_PROJECTS\1_C#\1_WP\vUnivere\vUnivere\bin\Debug\vUnivere.exe">
+      <PackagePath>vUnivere.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\1_MYFOLDER\2_PROJECTS\1_C#\1_WP\vUnivere\vUnivere\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\1_MYFOLDER\2_PROJECTS\1_C#\1_WP\vUnivere\vUnivere\Assets\map.png">
+      <PackagePath>Assets\map.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\1_MYFOLDER\2_PROJECTS\1_C#\1_WP\vUnivere\vUnivere\Assets\menuIcon.png">
+      <PackagePath>Assets\menuIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\1_MYFOLDER\2_PROJECTS\1_C#\1_WP\vUnivere\vUnivere\Assets\profile0001icon.png">
+      <PackagePath>Assets\profile0001icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\1_MYFOLDER\2_PROJECTS\1_C#\1_WP\vUnivere\vUnivere\Assets\profileIcon.png">
+      <PackagePath>Assets\profileIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\1_MYFOLDER\2_PROJECTS\1_C#\1_WP\vUnivere\vUnivere\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\1_MYFOLDER\2_PROJECTS\1_C#\1_WP\vUnivere\vUnivere\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\1_MYFOLDER\2_PROJECTS\1_C#\1_WP\vUnivere\vUnivere\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\1_MYFOLDER\2_PROJECTS\1_C#\1_WP\vUnivere\vUnivere\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\1_MYFOLDER\2_PROJECTS\1_C#\1_WP\vUnivere\vUnivere\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\1_MYFOLDER\2_PROJECTS\1_C#\1_WP\vUnivere\vUnivere\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\1_MYFOLDER\2_PROJECTS\1_C#\1_WP\vUnivere\vUnivere\bin\Debug\mainPage.xbf">
+      <PackagePath>mainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\1_MYFOLDER\2_PROJECTS\1_C#\1_WP\vUnivere\vUnivere\bin\Debug\vuMapPage.xbf">
+      <PackagePath>vuMapPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\1_MYFOLDER\2_PROJECTS\1_C#\1_WP\vUnivere\vUnivere\bin\Debug\vuMyGroupPage.xbf">
+      <PackagePath>vuMyGroupPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\1_MYFOLDER\2_PROJECTS\1_C#\1_WP\vUnivere\vUnivere\bin\Debug\vuNewsPage.xbf">
+      <PackagePath>vuNewsPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\1_MYFOLDER\2_PROJECTS\1_C#\1_WP\vUnivere\vUnivere\bin\Debug\vuSchedulePage.xbf">
+      <PackagePath>vuSchedulePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\1_MYFOLDER\2_PROJECTS\1_C#\1_WP\vUnivere\vUnivere\bin\Debug\vuScorePage.xbf">
+      <PackagePath>vuScorePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\1_MYFOLDER\2_PROJECTS\1_C#\1_WP\vUnivere\vUnivere\bin\Debug\vuTeachersPage.xbf">
+      <PackagePath>vuTeachersPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\1_MYFOLDER\2_PROJECTS\1_C#\1_WP\vUnivere\vUnivere\bin\Debug\vUnivere.xr.xml">
+      <PackagePath>vUnivere.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\1_MYFOLDER\2_PROJECTS\1_C#\1_WP\vUnivere\vUnivere\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

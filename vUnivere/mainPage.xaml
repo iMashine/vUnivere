@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="vUnivere.mainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:vUnivere"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+
+        <StackPanel Margin="10">
+            <TextBlock Text="vUnivere preview" Margin="0" Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}" FontSize="36" HorizontalAlignment="Center"/>
+            <Button Content="Map" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="Button_Click"/>
+            <Button Content="myGroup" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="Button_Click_1"/>
+            <Button Content="News" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="Button_Click_2"/>
+            <Button Content="Schedule" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="Button_Click_3"/>
+            <Button Content="Score" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="Button_Click_4"/>
+            <Button Content="Teachers" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="Button_Click_5"/>
+        </StackPanel>
+    </Grid>
+</Page>
